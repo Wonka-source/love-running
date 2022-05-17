@@ -199,3 +199,24 @@ hr {
     height: 100%;
     border-radius: 50%;                 /*this image worked well for a circle because its sides matched 300px X 300px */
 }
+
+/* event times */
+#times {
+    background-image: url('../images/dublin-city.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    background-repeat: no-repear;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    
+}
