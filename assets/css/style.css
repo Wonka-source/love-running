@@ -10,12 +10,13 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color:#3a3a3a;
+    color: #3a3a3a;
 }
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -29,12 +30,12 @@ h1, h2 {
 }
 
 #meun {
-    font-size: 110%
-    letter-spacing: 4px ;
+    font-size: 110% letter-spacing: 4px;
 
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 
 }
@@ -53,6 +54,7 @@ h1, h2 {
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -67,15 +69,17 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 
 }
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
-    
+
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -86,10 +90,11 @@ h1, h2 {
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to { 
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -129,7 +134,7 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    
+
 }
 
 #right-about {
@@ -142,11 +147,12 @@ h1, h2 {
 #center-about {
     width: 33%;
     margin: 0 auto;
-    
+
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;        /* hr this will give an underline*/
+    border-top: 1px solid #3a3a3a;
+    /* hr this will give an underline*/
     width: 100%;
     margin: 5px 0;
 }
@@ -155,18 +161,20 @@ hr {
     width: 60%;
     float: right;
     line-height: 20px;
-    clear: both;                     /* aligns the content block vertically   */
+    clear: both;
+    /* aligns the content block vertically   */
     margin-bottom: 50px;
-    
+
 }
 
 .right-about-heading {
     width: 60%;
     float: left;
     line-height: 20px;
-    clear: both;                     /* aligns the content block vertically   */
+    clear: both;
+    /* aligns the content block vertically   */
     margin-bottom: 50px;
-    
+
 }
 
 .right-about-heading h2 {
@@ -190,14 +198,16 @@ hr {
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
-    border-radius: 50%;             /*only work for containers with equal height and width*/
+    border-radius: 50%;
+    /*only work for containers with equal height and width*/
     margin: 0 auto;
 }
 
 #circle-cover-bg {
     background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
-    border-radius: 50%;                 /*this image worked well for a circle because its sides matched 300px X 300px */
+    border-radius: 50%;
+    /*this image worked well for a circle because its sides matched 300px X 300px */
 }
 
 /* event times */
@@ -213,10 +223,23 @@ hr {
 #times div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
-    background-repeat: no-repear;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+
+    box-sizing: border-box;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* width: 100%; */
+    /* overflow: hidden; */
+
+}
+
+#times h2 {
+    color: #fafafa;
     
 }
