@@ -15,7 +15,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -34,7 +35,8 @@ h1, h2 {
 
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 
 }
@@ -68,7 +70,8 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 
 }
@@ -91,6 +94,7 @@ h1, h2 {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -228,14 +232,33 @@ hr {
     border: 2px solid white;
 
     box-sizing: border-box;
-  
+
 }
 
 #times h2 {
     color: #fafafa;
-    
+
 }
 
 ul {
     list-style-type: none;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a
 }
